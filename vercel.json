@@ -1,6 +1,9 @@
 {
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
-  "installCommand": "echo 'install handled in build'",
-  "framework": null
+  "installCommand": "echo skip",
+  "framework": null,
+  "env": {
+    "VITE_API_URL": "https://nr-dry-fruits-1.onrender.com/api"
+  }
 }
